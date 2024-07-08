@@ -1,0 +1,16 @@
+let firstName = "John";
+let lastName = "Doe";
+let age = 30;
+let isEmployed = true;
+let hourlyRate = 20.5;
+let hoursWorked = 40;
+
+let fullName = firstName + " " + lastName;
+let weeklyEarnings = hourlyRate * hoursWorked;
+
+console.log("Full Name: " + fullName); // Full Name: John Doe
+console.log("Age: " + age); // Age: 30
+console.log("Is Employed: " + isEmployed); // Is Employed: true
+console.log("Hourly Rate: $" + hourlyRate); // Hourly Rate: $20.5
+console.log("Hours Worked: " + hoursWorked); // Hours Worked: 40
+console.log("Weekly Earnings: $" + weeklyEarnings); // Weekly Earnings: $820
